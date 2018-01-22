@@ -274,7 +274,7 @@ footer {
   }
 
   header {
-    min-width: 748px;
+    min-width: 100%;
   }
 
   .content-box {
@@ -308,10 +308,6 @@ footer {
 @media screen and (max-width: 768px) {
   .container {
     width: 620px;
-  }
-
-  header {
-    min-width: 620px;
   }
 
   .content-box {
@@ -350,10 +346,6 @@ footer {
 @media screen and (max-width: 640px) {
   .container {
     width: 96%;
-  }
-
-  header {
-    min-width: initial;
   }
 
   header div.container {
