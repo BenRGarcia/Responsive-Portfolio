@@ -1,19 +1,21 @@
 /*========================================*/
 /*========   Table of Contents   =========*/
 /*========================================*/
-/*  I.   Page & Containers    | Line  26  *
+/*  I.   Page & Containers    | Line  28  *
  *----------------------------------------*
- *  II.  Header & Nav         | Line  63  *
+ *  II.  Header & Nav         | Line  65  *
  *----------------------------------------*
  *  III. Main Content Section |           *
- *        a. General          | Line 105  *
- *        b. About            | Line 130  *
- *        c. Portfolio        | Line 149  *
- *        d. Contact          | Line 168  *
+ *        a. General          | Line 107  *
+ *        b. About            | Line 133  *
+ *        c. Portfolio        | Line 152  *
+ *        d. Contact          | Line 175  *
  *----------------------------------------*
- *  IV.  Social Links Section | Line 206  *
+ *  IV.  Social Links Section | Line 217  *
  *----------------------------------------*
- *  V.   Footer               | Line 234  *
+ *  V.   Footer               | Line 245  *
+ *----------------------------------------*
+ *  VI.  Media Queries        | Line 271  *
  *----------------------------------------*/
 
 
@@ -301,12 +303,7 @@ footer {
     max-width: 150px;
     max-height: 250px;
   }
-}
-
-
-
-
-
+}/*-------------------------------*/
 /* For small screens and under */
 @media screen and (max-width: 768px) {
   .container {
@@ -348,12 +345,7 @@ footer {
   .float-right {
     float: right;
   }
-}
-
-
-
-
-
+}/*-------------------------------*/
 /* For x-small screens and under */
 @media screen and (max-width: 640px) {
   .container {
@@ -403,32 +395,6 @@ footer {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*================================*/
 /*============= End ==============*/
