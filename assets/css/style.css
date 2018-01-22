@@ -348,7 +348,7 @@ footer {
 /* For x-small screens and under */
 @media screen and (max-width: 640px) {
   .container {
-    width: 400px;
+    width: 96%;
   }
 
   header {
@@ -375,11 +375,11 @@ footer {
   }
 
   .content-box {
-    width: 400px;
+    max-width: 100%;
   }
 
   .social-box {
-    width: 400px
+    max-width: 100%;
   }
 
   #profile-pic {
