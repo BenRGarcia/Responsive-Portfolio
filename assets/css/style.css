@@ -248,7 +248,102 @@ footer {
   color: #aaaaaa;
   font-size: 15px;
   text-align: center;
-}/*-------------------------------
+}/*-------------------------------*/
+
+
+
+
+
+/*================================*/
+/*===    VI. Media Queries     ===*/
+/*================================*/
+/* For medium screens and under */
+@media screen and (max-width: 980px) {
+  .container {
+    width: 758px;
+  }
+  
+  .content-box {
+    width: 428px;
+  }
+
+  .social-box {
+    width: 300px;
+  }
+
+  #profile-pic {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+
+
+
+/* For small screens and under */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 630px;
+  }
+
+  .content-box {
+    float: none;
+    width: 625px;
+  }
+
+  .social-box {
+    float: none;
+    width: 625px;
+  }
+
+  #profile-pic {
+    width: 35%;
+    height: 35%;
+  }
+}
+
+
+
+
+
+/* For x-small screens and under */
+@media screen and (max-width: 640px) {
+  .content-box {
+
+  }
+
+  .social-box {
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*================================*/
 /*============= End ==============*/
