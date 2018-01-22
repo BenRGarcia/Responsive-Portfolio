@@ -260,15 +260,19 @@ footer {
 /* For medium screens and under */
 @media screen and (max-width: 980px) {
   .container {
-    width: 758px;
+    width: 748px;
   }
-  
+
+  header {
+    min-width: 748px;
+  }
+
   .content-box {
-    width: 428px;
+    width: 423px;
   }
 
   .social-box {
-    width: 300px;
+    width: 295px;
   }
 
   #profile-pic {
@@ -285,7 +289,11 @@ footer {
 /* For small screens and under */
 @media screen and (max-width: 768px) {
   .container {
-    width: 630px;
+    width: 620px;
+  }
+
+  header {
+    min-width: 620px;
   }
 
   .content-box {
@@ -296,9 +304,12 @@ footer {
   .social-box {
     float: none;
     width: 625px;
+    text-align: left;
   }
 
   #profile-pic {
+    margin-right: 15px;
+    float: left;
     width: 35%;
     height: 35%;
   }
@@ -311,7 +322,7 @@ footer {
 /* For x-small screens and under */
 @media screen and (max-width: 640px) {
   .content-box {
-
+    background-color: red;
   }
 
   .social-box {
