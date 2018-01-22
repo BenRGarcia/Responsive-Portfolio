@@ -386,7 +386,26 @@ footer {
     float: none;
     width: 100%;
   }
+}/*-------------------------------*/
+
+/*================================*/
+/*===      VII. Animation      ===*/
+/*================================*/
+@keyframes title-slide {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  
+  to {
+    margin-left: 0%;
+  }
 }
+
+.content-main-title {
+  animation-duration: 2s;
+  animation-name: title-slide;
+}/*-------------------------------*/
 
 /*================================*/
 /*============= End ==============*/
