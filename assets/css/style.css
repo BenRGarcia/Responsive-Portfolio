@@ -156,14 +156,18 @@ nav ul li {
   outline: 2px solid #aaaaaa;
 }
 
+.portfolio-img {
+  width: 250px;
+}
+
 .portfolio-img-banner {
   background-color: #4aaaa5;
-  width: 250px;
+  width: 100%;
   text-align: center;
   color: white;
   padding: 15px 0;
   position: absolute;
-  top: 65%;
+  top: 75%;
 }
 /*--------- d. Contact   ---------*/
 .form-label-margin {
@@ -280,6 +284,14 @@ footer {
     margin: 0 auto;
     display: block;
   }
+
+  .portfolio-img-wrapper {
+    float: none;
+  }
+
+  .portfolio-img {
+    width: 100%;
+  }
 }
 
 
@@ -298,12 +310,12 @@ footer {
 
   .content-box {
     float: none;
-    width: 625px;
+    width: 620px;
   }
 
   .social-box {
     float: none;
-    width: 625px;
+    width: 620px;
     text-align: left;
   }
 
@@ -313,6 +325,20 @@ footer {
     width: 35%;
     height: 35%;
   }
+
+  .portfolio-img-wrapper {
+    width: 45%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .float-right {
+    float: right;
+  }
 }
 
 
@@ -321,12 +347,51 @@ footer {
 
 /* For x-small screens and under */
 @media screen and (max-width: 640px) {
+  .container {
+    width: 400px;
+  }
+
+  header {
+    min-width: initial;
+  }
+
+  header div.container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #header-logo {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    width: 33.33%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
   .content-box {
-    background-color: red;
+    width: 400px;
   }
 
   .social-box {
-    
+    width: 400px
+  }
+
+  #profile-pic {
+    float: none;
+    margin: 0 auto;
+    width: 45%;
+    height: 45%;
+  }
+
+  .portfolio-img-wrapper {
+    float: none;
+    width: 100%;
   }
 }
 
