@@ -4,7 +4,7 @@ Click [here](https://benrgarcia.github.io/Responsive-Portfolio/) to view the liv
 
 ## Description
 
-* Use of Media Queries to make Basic-Portfolio site Responsive
+* Use of Media Queries to make <a href="https://benrgarcia.github.io/Basic-Portfolio/">Basic-Portfolio</a> site Responsive
 
 * Media Query breakpoints @ 980px | 768px | 640px
 
