@@ -1,10 +1,6 @@
 # Responsive-Portfolio
 
----
-
 Click [here](https://benrgarcia.github.io/Responsive-Portfolio/) to view the live site
-
----
 
 ## Description
 
